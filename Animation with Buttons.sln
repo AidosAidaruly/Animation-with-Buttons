@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{96B79311-A89E-0770-1B7A-F86002020CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{200042B7-5860-EF6F-AC38-14F9FBD2A937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.editor", "sc.terrain.painter.editor.csproj", "{B2B3B443-21FA-1914-CBAA-35AC38DE1D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{32B4074F-C4F8-DAF4-1C0B-5AAAEE8AD7F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B79311-A89E-0770-1B7A-F86002020CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B79311-A89E-0770-1B7A-F86002020CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B79311-A89E-0770-1B7A-F86002020CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B79311-A89E-0770-1B7A-F86002020CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200042B7-5860-EF6F-AC38-14F9FBD2A937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200042B7-5860-EF6F-AC38-14F9FBD2A937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200042B7-5860-EF6F-AC38-14F9FBD2A937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200042B7-5860-EF6F-AC38-14F9FBD2A937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B3B443-21FA-1914-CBAA-35AC38DE1D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B3B443-21FA-1914-CBAA-35AC38DE1D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B3B443-21FA-1914-CBAA-35AC38DE1D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B3B443-21FA-1914-CBAA-35AC38DE1D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B4074F-C4F8-DAF4-1C0B-5AAAEE8AD7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B4074F-C4F8-DAF4-1C0B-5AAAEE8AD7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B4074F-C4F8-DAF4-1C0B-5AAAEE8AD7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B4074F-C4F8-DAF4-1C0B-5AAAEE8AD7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

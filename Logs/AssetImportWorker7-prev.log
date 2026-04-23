@@ -1,0 +1,870 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aidos" at "2026-04-23T09:41:17.1897354Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-23T09:41:17Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Games/Animation with Buttons
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+56883
+-licensingIpc
+LicenseClient-aidos
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Games/Animation with Buttons
+D:/Games/Animation with Buttons
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [16648]  Target information:
+
+Player connection [16648]  * "[IP] 26.40.206.18 [Port] 0 [Flags] 2 [Guid] 956693890 [EditorId] 956693890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IUF6PLC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16648]  * "[IP] 10.202.19.197 [Port] 0 [Flags] 2 [Guid] 956693890 [EditorId] 956693890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IUF6PLC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16648] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16648] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Games/Animation with Buttons/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.8115
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-aidos"
+[Licensing::IpcConnector] LicenseClient-aidos channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aidos-6000.3.11" at "2026-04-23T09:41:18.1225157Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              4df8779c3a0146179c6a32697ac04c45
+  Correlation Id:          0f648cfbe5313fa79ce714f22756ac61
+  External correlation Id: 6927788276240061982
+  Machine Id:              1VezSWr/9ZsWvZv3WlpzzkkOgxY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aidos-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.16s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aidos-6000.3.11-notifications" at "2026-04-23T09:41:18.2799529Z"
+[Licensing::Module] Licensing Background thread has ended after 1.09s
+[Licensing::Module] Licensing is initialized (took 0.35s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968404399461-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.351037 seconds.
+- Loaded All Assemblies, in  0.763 seconds
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (397ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.464 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.680 seconds
+Domain Reload Profiling: 3141ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1042ms)
+		LoadAssemblies (607ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (612ms)
+			TypeCache.Refresh (431ms)
+				TypeCache.ScanAssembly (402ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (313ms)
+			ProcessInitializeOnLoadAttributes (749ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6369 unused Assets / (5.6 MB). Loaded Objects now: 7193.
+Memory consumption went from 153.9 MB to 148.3 MB.
+Total: 20.029400 ms (FindLiveObjects: 1.728800 ms CreateObjectMapping: 1.865500 ms MarkObjects: 12.632400 ms  DeleteObjects: 3.799800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10829.528738 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx
+  artifactKey: Guid(e8f07670fb0274e35a65e6e98594a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx using Guid(e8f07670fb0274e35a65e6e98594a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1093e3ea4030bbdc7265d13ed5f532bc') in 0.5052192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Costumes/Costume_13_001.fbx
+  artifactKey: Guid(c26456827c09dba47ae31941d87b6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Costumes/Costume_13_001.fbx using Guid(c26456827c09dba47ae31941d87b6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d504e4feeef37169f6c7b925779116d') in 0.1936071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Hairstyle Single/Hairstyle_Male_Single_006.fbx
+  artifactKey: Guid(49afccecce4f7b446a34b4e3223cf8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Hairstyle Single/Hairstyle_Male_Single_006.fbx using Guid(49afccecce4f7b446a34b4e3223cf8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6179635806444fd0e2e7d7b865fd7740') in 0.0410346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Gloves/Gloves_014.fbx
+  artifactKey: Guid(47ba93e4fb1b05e418fa1918bf34ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Gloves/Gloves_014.fbx using Guid(47ba93e4fb1b05e418fa1918bf34ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97f69a67b93cfe3cbad04def4619dbf1') in 0.0331488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Glasses/Glasses_006.fbx
+  artifactKey: Guid(8ce1c24b95f214d4bb53ebe8be080a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Glasses/Glasses_006.fbx using Guid(8ce1c24b95f214d4bb53ebe8be080a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91c6f0872f14d2b3e7882a5e421e010e') in 0.0707976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSkyFreeDemoEnvironment.prefab
+  artifactKey: Guid(e2402d4ef4fe747ae9ad59bdccad4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSkyFreeDemoEnvironment.prefab using Guid(e2402d4ef4fe747ae9ad59bdccad4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '409a31fd2539e75ae316d350ef6e1c98') in 0.0405329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Gloves/Gloves_014.prefab
+  artifactKey: Guid(4f7df4398449d8e4dafc1cd8986d7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Gloves/Gloves_014.prefab using Guid(4f7df4398449d8e4dafc1cd8986d7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebee06282a33e05110664e174920408e') in 0.0228586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Base_Mesh.prefab
+  artifactKey: Guid(5736e576bae68ca4393c5441179cace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Base_Mesh.prefab using Guid(5736e576bae68ca4393c5441179cace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e77d381959aff9c9aea681f75f53fe1') in 0.079888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 307
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Costumes/Costume_13_002.prefab
+  artifactKey: Guid(48013649fde2719469b91a7b7816e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Costumes/Costume_13_002.prefab using Guid(48013649fde2719469b91a7b7816e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1260ad462efe057586c12ae935bec8b3') in 0.0221539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Animations/Animation_Mesh/Aminset_Basic.fbx
+  artifactKey: Guid(5dbb2366974668d48a42568690792034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Animations/Animation_Mesh/Aminset_Basic.fbx using Guid(5dbb2366974668d48a42568690792034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec88c4acabf0fbed99ef235437f299e') in 0.0552493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Animations/Animation_Mesh/Aminset_Basic.prefab
+  artifactKey: Guid(54e8acb99b4df6f48bf6b2a4cbbd9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Animations/Animation_Mesh/Aminset_Basic.prefab using Guid(54e8acb99b4df6f48bf6b2a4cbbd9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8f5491be9b4a69d83d3aba629eec842') in 0.0253055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 200
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Glasses/Glasses_004.fbx
+  artifactKey: Guid(37ecfcaf8ce0c064d92bcec65eba3e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Glasses/Glasses_004.fbx using Guid(37ecfcaf8ce0c064d92bcec65eba3e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '531d82b31f51365a03044a1644a35b44') in 0.0361882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Body/Body_010.prefab
+  artifactKey: Guid(7f6862d8aee10a042821738d523fc6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Body/Body_010.prefab using Guid(7f6862d8aee10a042821738d523fc6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cca1d31f21f0060c1559ba982165910') in 0.0291584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Hairstyle/Hairstyle_Male_005.fbx
+  artifactKey: Guid(634df7d5a6da6804f95f30ed030ec528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Hairstyle/Hairstyle_Male_005.fbx using Guid(634df7d5a6da6804f95f30ed030ec528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26592f55c2408ed31d58297fcc954c1') in 0.0444666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Face Accessories/Clown_nose_001.fbx
+  artifactKey: Guid(9ca093b63b32bc6479e8706c849e1ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Face Accessories/Clown_nose_001.fbx using Guid(9ca093b63b32bc6479e8706c849e1ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97d29c689b6cd0dd3f10d8709c39ae31') in 0.040675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494405 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Hat Single/Hat_Single_008.prefab
+  artifactKey: Guid(04ba1823c0442e04397b17ece6ad2966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Hat Single/Hat_Single_008.prefab using Guid(04ba1823c0442e04397b17ece6ad2966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca9d30fcff7873ed061aeb39513c67f9') in 0.0277877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Hat Single/Hat_Single_013.fbx
+  artifactKey: Guid(ce66d77ff5aabf548903d7b30693fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Hat Single/Hat_Single_013.fbx using Guid(ce66d77ff5aabf548903d7b30693fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9d9be3776a3f40b20c67863ba9d5bb') in 0.0420513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Face Accessories/Headphones_002.fbx
+  artifactKey: Guid(106c56f4b86971e4393de6fb97ee6cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Face Accessories/Headphones_002.fbx using Guid(106c56f4b86971e4393de6fb97ee6cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b87751ba32cafa4519ccbae8461814') in 0.0420286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Hat Single/Hat_Single_013.prefab
+  artifactKey: Guid(24876fae2b076984dafefcb2ec5b67ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Hat Single/Hat_Single_013.prefab using Guid(24876fae2b076984dafefcb2ec5b67ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fa55111b7d553f2fec28c7c102ca3b4') in 0.0293609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 202
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628166 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Faces/Male_emotion_angry_003.fbx
+  artifactKey: Guid(e2a9edf3127d00246a60fb52ef4856b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Faces/Male_emotion_angry_003.fbx using Guid(e2a9edf3127d00246a60fb52ef4856b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702f177b58fa59413feff19ab56f0b90') in 0.0327853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Faces/Male_emotion_angry_003.prefab
+  artifactKey: Guid(f9821e37959e9bc4da8d0ee20ea33461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Faces/Male_emotion_angry_003.prefab using Guid(f9821e37959e9bc4da8d0ee20ea33461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df0b46a46c322cc6f9b6e16f53610ef8') in 0.0257385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Face Accessories/Mustache_003.prefab
+  artifactKey: Guid(7e0f8c5b1b29e4b4895e1fe0b0659109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Face Accessories/Mustache_003.prefab using Guid(7e0f8c5b1b29e4b4895e1fe0b0659109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0797f8183d5d394e4c2701592ef2513') in 0.0246942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Face Accessories/Mustache_011.prefab
+  artifactKey: Guid(bc6466d27e0478a48a2f220fcc6f87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Face Accessories/Mustache_011.prefab using Guid(bc6466d27e0478a48a2f220fcc6f87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9825102e3142434fb90caaf828e4f1ba') in 0.0250706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Outfit/Outfit_010.fbx
+  artifactKey: Guid(de746c65be1d3594384300bbc4f9e168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Outfit/Outfit_010.fbx using Guid(de746c65be1d3594384300bbc4f9e168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f02dc1cf7186b6ec19183201c35f016') in 0.0432797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Mascots/Mascot_002.prefab
+  artifactKey: Guid(859486e85bd401d4eacf38a2024738a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Mascots/Mascot_002.prefab using Guid(859486e85bd401d4eacf38a2024738a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474d35da37ad1a56859729fe0ede077d') in 0.0331673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Face Accessories/Mustache_011.fbx
+  artifactKey: Guid(b4d34f152c73703499b03a8b9beab646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Face Accessories/Mustache_011.fbx using Guid(b4d34f152c73703499b03a8b9beab646) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fe2f9dc6f6f6106181c09a22388f764') in 0.0445702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Outwear/Outwear_043.prefab
+  artifactKey: Guid(83e41686b24440041aba19fbd14731ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Outwear/Outwear_043.prefab using Guid(83e41686b24440041aba19fbd14731ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f414365211b4e11b40b374369eed6d8f') in 0.0352568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Pants/Pants_009.fbx
+  artifactKey: Guid(0f24f9714abd24a4596c28822aaa7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Pants/Pants_009.fbx using Guid(0f24f9714abd24a4596c28822aaa7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a976dbf8ca1d2964e2b75e9c6684ec') in 0.0427776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Shoes/Shoe_Slippers_005.fbx
+  artifactKey: Guid(bfab5a5ca14002a469bd5912e025f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Shoes/Shoe_Slippers_005.fbx using Guid(bfab5a5ca14002a469bd5912e025f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57837c60a4e60d9d1f686cabd0a519e4') in 0.0460546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tree9/Tree9_3.prefab
+  artifactKey: Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_3.prefab using Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07c57d8c12e8e94dddfafde439c4a222') in 0.1052621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_1.prefab
+  artifactKey: Guid(022485ff60e4a26418217d8ab778a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_1.prefab using Guid(022485ff60e4a26418217d8ab778a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10abb1a5cf9c077dee2c18ae04660250') in 0.0378726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Shoes/Shoe_Sneakers_009.prefab
+  artifactKey: Guid(69faa08bd86cacd499939897c6ac7378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Shoes/Shoe_Sneakers_009.prefab using Guid(69faa08bd86cacd499939897c6ac7378) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91e108ce239a3eec2d88dfc5982eec51') in 0.0311303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_1.fbx
+  artifactKey: Guid(fc8ec91f9ed53ab4b8302d063cc89ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_1.fbx using Guid(fc8ec91f9ed53ab4b8302d063cc89ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2b3e6a499c297ab95d42dd6af9f8df2') in 0.0337929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_0.fbx
+  artifactKey: Guid(419b474d3d31ef54e9c101d6e7213aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_0.fbx using Guid(419b474d3d31ef54e9c101d6e7213aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '961ec853c1387bcd4f0a58d441432c05') in 0.0365674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Pants/Pants_010.fbx
+  artifactKey: Guid(67dfe8b1e1ed9b34c985396c6282c820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Pants/Pants_010.fbx using Guid(67dfe8b1e1ed9b34c985396c6282c820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf774face6ea1c8b99b77c1b5588e02') in 0.0451521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Outwear/Outwear_004.prefab
+  artifactKey: Guid(90ed5a8af4944eb44ba4e1bc591c3062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Outwear/Outwear_004.prefab using Guid(90ed5a8af4944eb44ba4e1bc591c3062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6c46811bc8c210390994732729df5ff') in 0.0291716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Shorts/Shorts_003.prefab
+  artifactKey: Guid(9ee1fee4171846f4192f28480783f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Shorts/Shorts_003.prefab using Guid(9ee1fee4171846f4192f28480783f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe349147a14bcb7c9a618abe0e6529a0') in 0.0294404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Socks/Socks_008.fbx
+  artifactKey: Guid(1ce007de4fc6e4645b0ea41258fde30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Socks/Socks_008.fbx using Guid(1ce007de4fc6e4645b0ea41258fde30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c4ff214d58c386e552409a4de8cd912') in 0.0432881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Shoes/Shoe_Slippers_002.prefab
+  artifactKey: Guid(d8d908e1160656a45848352933ae4caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Shoes/Shoe_Slippers_002.prefab using Guid(d8d908e1160656a45848352933ae4caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab479f2976ef698359a0b38ba2a734d') in 0.0275549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Outwear/Outwear_050.fbx
+  artifactKey: Guid(5a531847cd74a654b97ef249cb9306d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Outwear/Outwear_050.fbx using Guid(5a531847cd74a654b97ef249cb9306d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1e546ef3533c476fb34ec1c911f58d') in 0.0437924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Prefabs/Outwear/Outwear_050.prefab
+  artifactKey: Guid(ab7cd47b77eacee4eb4dde92506d6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Prefabs/Outwear/Outwear_050.prefab using Guid(ab7cd47b77eacee4eb4dde92506d6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a570668671dae86d168524e8265ba3b2') in 0.0298859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Shoes/Shoe_Slippers_002.fbx
+  artifactKey: Guid(20384ecd8466c804eb14b502b62acc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Shoes/Shoe_Slippers_002.fbx using Guid(20384ecd8466c804eb14b502b62acc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85eaa8d51af8915f4ce1bfb2a182c306') in 0.0423568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ithappy/Creative_Characters_FREE/Meshes/Mascots/Mascot_002.fbx
+  artifactKey: Guid(3e038445d159c3545bbcb19acc70593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Creative_Characters_FREE/Meshes/Mascots/Mascot_002.fbx using Guid(3e038445d159c3545bbcb19acc70593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3e05f576e226590cc9c26e4ac919964') in 0.0436523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/URP_Tree_2_LOD_0.fbx
+  artifactKey: Guid(b45cc48d62b4ade468a90cbc817aecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/URP_Tree_2_LOD_0.fbx using Guid(b45cc48d62b4ade468a90cbc817aecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08adbff352136143cbc495b31444e3db') in 0.0366503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx
+  artifactKey: Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx using Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e103f9e66905a768e207bc6e1251f34') in 0.0384031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_0.fbx
+  artifactKey: Guid(8d5f15814e2635b4caac8162f5b244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_0.fbx using Guid(8d5f15814e2635b4caac8162f5b244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3581a714988eba66cbeb44d9a440440') in 0.0353867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_3.prefab
+  artifactKey: Guid(af90fe2f0f252bf4b8c2ab79bcd41edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_3.prefab using Guid(af90fe2f0f252bf4b8c2ab79bcd41edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3a407949c92c7fd5b5e60a6fe58e9f') in 0.0503387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.380286 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_2.asset
+  artifactKey: Guid(06b03729d66083744a7ca73245bd3cdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_2.asset using Guid(06b03729d66083744a7ca73245bd3cdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f65cfeb8f35aefc882b3706473db8496') in 0.094155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ProceduralTerrainPainter/CHANGELOG.md
+  artifactKey: Guid(b6926abd9fc31f94a9e5c7a2ac095bd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/CHANGELOG.md using Guid(b6926abd9fc31f94a9e5c7a2ac095bd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0028cdfd7fd30bc7372c5b06f5280757') in 0.0115119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo
+  artifactKey: Guid(b4ceccca81b462f418ad1bb52790af9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo using Guid(b4ceccca81b462f418ad1bb52790af9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22e50b3568decb2a0a93fe900c3c5962') in 0.0104301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/ModifierStack.cs
+  artifactKey: Guid(5352cad4160642d08cdaf7bdfff2b986) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/ModifierStack.cs using Guid(5352cad4160642d08cdaf7bdfff2b986) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98321951aa2a398a45bfe1d28ca951b7') in 0.0155514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ProceduralTerrainPainter/Shaders/Modifier.shader
+  artifactKey: Guid(0f44df78e3d64d9cb2616cac3d84cb77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Shaders/Modifier.shader using Guid(0f44df78e3d64d9cb2616cac3d84cb77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42b0e976a8e0c644130327cbec62bae7') in 0.0165016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt
+  artifactKey: Guid(694a95718d4ab2c40a7054ff02a7d3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt using Guid(694a95718d4ab2c40a7054ff02a7d3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9a51d6140cfed11def76bd14b6965cb') in 0.0112883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/TerrainPainter.cs
+  artifactKey: Guid(6af2d410bf489d842a543a60d605af5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/TerrainPainter.cs using Guid(6af2d410bf489d842a543a60d605af5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be0a2186e999f1b88ac1113dbf98bc19') in 0.0159263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Modifiers/Slope.cs
+  artifactKey: Guid(2562637f396e4c10acd3fa9926b53a12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Modifiers/Slope.cs using Guid(2562637f396e4c10acd3fa9926b53a12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '457d8eb711f78196ae6c2071aac0968f') in 0.0109674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Snow_006_Albedo.png
+  artifactKey: Guid(4b17739d8bfd9e149b62d2c1e454e558) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Snow_006_Albedo.png using Guid(4b17739d8bfd9e149b62d2c1e454e558) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '444308b5f84ab764bcfe9435e96d2787') in 0.0407096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Ground_008_Albedo.png
+  artifactKey: Guid(f4c2b7e2446a93443a8602ed52450824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Ground_008_Albedo.png using Guid(f4c2b7e2446a93443a8602ed52450824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a14122b87c6ed30ae47b8234be78e79d') in 0.0179577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Normals.png
+  artifactKey: Guid(7ec5f51d29b74cb488abb7979cf79b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Normals.png using Guid(7ec5f51d29b74cb488abb7979cf79b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b082cd2ba9519c39d8ee1e438b7c28b') in 0.0146216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/Editor/TerrainPainterInspector.cs
+  artifactKey: Guid(a49fde16da1c76740ae5ddd0603fde96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Editor/TerrainPainterInspector.cs using Guid(a49fde16da1c76740ae5ddd0603fde96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c101d17951ab02d3c1db0d93163c7a3') in 0.0112509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Modifiers/Direction.cs
+  artifactKey: Guid(0a035df583564519a95ec430b2620ba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Modifiers/Direction.cs using Guid(0a035df583564519a95ec430b2620ba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5ddb2eafef5afefcd3f57db30212e05') in 0.0113856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_0.asset
+  artifactKey: Guid(80c2198814d1a694f9044e4f5a861c2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_0.asset using Guid(80c2198814d1a694f9044e4f5a861c2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '786cc7926c6f4ea64a6d3699dc2c0110') in 0.0171771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Modifiers/TextureMask.cs
+  artifactKey: Guid(4595e05301824e9284b1b12ad3f356dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Modifiers/TextureMask.cs using Guid(4595e05301824e9284b1b12ad3f356dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10fe85232e36ecfaad0b5a75901d69a2') in 0.0103666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AllSkyFree/NewBrush 1.brush
+  artifactKey: Guid(07e1aaf7ba990194d883d911be95b10f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/NewBrush 1.brush using Guid(07e1aaf7ba990194d883d911be95b10f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36c649ce4d0b2c04b20afbba601107cc') in 0.0243762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Utilities.cs
+  artifactKey: Guid(092430f9bf37403bb29ef195b38b985e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Utilities.cs using Guid(092430f9bf37403bb29ef195b38b985e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08a7706b49294e8b2602cb57cdd941d7') in 0.009364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ProceduralTerrainPainter/Editor/sc.terrain.painter.editor.asmdef
+  artifactKey: Guid(9fd1e6ad373dc854c954d3ffc5c367c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Editor/sc.terrain.painter.editor.asmdef using Guid(9fd1e6ad373dc854c954d3ffc5c367c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad6c534d010a59e78ad7085a4aec2828') in 0.0101421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Dirt.terrainlayer
+  artifactKey: Guid(eb742adf8ec7a8b4684109a139de6019) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Dirt.terrainlayer using Guid(eb742adf8ec7a8b4684109a139de6019) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3445df28849068c06b75d6d260924fa') in 0.0123397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/PTP_TerrainMat.mat
+  artifactKey: Guid(b8b309b499f9d104baca1fbf190fd575) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/PTP_TerrainMat.mat using Guid(b8b309b499f9d104baca1fbf190fd575) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36c73c81da098403ff58665c57f3d13b') in 0.0148412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Rock_003_Normals.png
+  artifactKey: Guid(7ac01204a93e9d041b6d18d960ccfacd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Rock_003_Normals.png using Guid(7ac01204a93e9d041b6d18d960ccfacd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25b67211da18052bfd8bb1b84629946c') in 0.014411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/TerrainChangeListener.cs
+  artifactKey: Guid(1db11228c23499742957c29c86d7afba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/TerrainChangeListener.cs using Guid(1db11228c23499742957c29c86d7afba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bca2462915b3789bfbe48c9fbe831220') in 0.0098073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_1.asset
+  artifactKey: Guid(1b49923812742c241af8fabb84e36acc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_1.asset using Guid(1b49923812742c241af8fabb84e36acc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dda3bc4d67a3a131f74dba4cd35ba59a') in 0.0159338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers
+  artifactKey: Guid(db9b48b0428a5fb4d850e4e23e4ea762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers using Guid(db9b48b0428a5fb4d850e4e23e4ea762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74e8753c19f49d3f689412c2aae53ebc') in 0.0096292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Ground_037_Normals.png
+  artifactKey: Guid(583f9047eed05c342b9997b4ff0270a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Ground_037_Normals.png using Guid(583f9047eed05c342b9997b4ff0270a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0159cbb231155666fcf8e7a36491558e') in 0.0152001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ProceduralTerrainPainter/Editor/ModifierEditor.cs
+  artifactKey: Guid(cd03f240af5546959c06cc4f38f40cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Editor/ModifierEditor.cs using Guid(cd03f240af5546959c06cc4f38f40cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9261165fe853d14d8ade422596687b92') in 0.0092566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/LayerSettings.cs
+  artifactKey: Guid(2fcd88b0660f48b5963e0fd61344c739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/LayerSettings.cs using Guid(2fcd88b0660f48b5963e0fd61344c739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee2610191e7b0ba6d331c6d5c0603df1') in 0.0114516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ProceduralTerrainPainter/Shaders/Filters.hlsl
+  artifactKey: Guid(9318a23df348cbf47b7b69ca57bd0d41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Shaders/Filters.hlsl using Guid(9318a23df348cbf47b7b69ca57bd0d41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bed9ab3e9f7dfecb3af6bb4dfddaaf54') in 0.009477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Sand_034_Normals.png
+  artifactKey: Guid(a89790c8eca6fc54db66b07dd4dc3ddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Sand_034_Normals.png using Guid(a89790c8eca6fc54db66b07dd4dc3ddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c1c3e164ea61547013867980d6aa34a') in 0.012974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Modifiers/Height.cs
+  artifactKey: Guid(b1d046e3917e4d8580903c69758b6558) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Modifiers/Height.cs using Guid(b1d046e3917e4d8580903c69758b6558) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b4e20797a753b32e3a8395da889ce07') in 0.0091212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AllSkyFree/NewBrush 3.brush
+  artifactKey: Guid(6bc7a2e4cf7690e42b154474117d8630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/NewBrush 3.brush using Guid(6bc7a2e4cf7690e42b154474117d8630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22d465af23294659913516c1a455e10e') in 0.0118825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Sand.terrainlayer
+  artifactKey: Guid(9a73362259799e748b5f32ee4d5b9f54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Sand.terrainlayer using Guid(9a73362259799e748b5f32ee4d5b9f54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '036ef6c923ff83cb54f6e8dec47efee5') in 0.0129116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
